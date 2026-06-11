@@ -24,3 +24,22 @@ struct Quarto {
 
 // Estrutura de Reserva
 struct Reserva {
+   int codigoReserva;
+   int codigoHospede;
+   int numeroQuarto;
+   int dias;
+   int checkin;
+   int ativa;
+};
+
+/////////////////////
+
+////////////////////
+
+Hospede[MAX_HOSPEDES];
+Quarto[MAX_QUARTOS];
+Reservas[MAX_RESERVAS];
+
+int totaldehospedes = 0;
+int totaldequartos = 0;
+int totaldereservas = 0;
